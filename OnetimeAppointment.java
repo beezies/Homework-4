@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * 
  * @author briannanicole
  * 
- *         Subclass of Appointment that is for single appointments
+ *         Subclass of Appointment that is for single appointments.
  *
  */
 public class OnetimeAppointment extends Appointment {

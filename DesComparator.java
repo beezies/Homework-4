@@ -1,8 +1,15 @@
 package edu.sjsu.assignment3;
 
-import java.time.LocalDate;
 import java.util.Comparator;
 
+/**
+ * 
+ * @author briannanicole
+ * 
+ *         Comparator for two Appointment objects. compares on basis of
+ *         description, start then end dates.
+ *
+ */
 public class DesComparator implements Comparator<Appointment> {
 
 	@Override
