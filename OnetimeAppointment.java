@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 /**
  * 
+ * Subclass of Appointment that is for single appointments.
+ * 
  * @author briannanicole
  * 
- *         Subclass of Appointment that is for single appointments.
- *
  */
 public class OnetimeAppointment extends Appointment {
 

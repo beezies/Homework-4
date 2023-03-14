@@ -4,11 +4,11 @@ import java.util.Comparator;
 
 /**
  * 
+ * Comparator for two Appointment objects. compares on basis of description,
+ * start then end dates.
+ * 
  * @author briannanicole
  * 
- *         Comparator for two Appointment objects. compares on basis of
- *         description, start then end dates.
- *
  */
 public class DesComparator implements Comparator<Appointment> {
 

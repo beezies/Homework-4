@@ -4,11 +4,10 @@ import java.time.LocalDate;
 
 /**
  * 
+ * Subclass of Appointment that is for daily appointments between two dates.
+ * 
  * @author briannanicole
  * 
- *         Subclass of Appointment that is for daily appointments between two
- *         dates.
- *
  */
 public class DailyAppointment extends Appointment {
 

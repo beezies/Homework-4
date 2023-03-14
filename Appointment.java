@@ -2,13 +2,14 @@ package edu.sjsu.assignment3;
 
 import java.time.LocalDate;
 
+// JavaDoc url: https://beezies.github.io/Homework-4/edu/sjsu/assignment3/package-summary.html
+
 /**
+ * 
+ * Abstract class for assigning appointments between start and end dates.
  * 
  * @author briannanicole
  * 
- *         Abstract class for assigning appointments between start and end
- *         dates.
- *
  */
 public abstract class Appointment implements Comparable<Appointment> {
 
@@ -109,7 +110,7 @@ public abstract class Appointment implements Comparable<Appointment> {
 
 		return (this.getDescription().compareTo(o.getDescription()) * -1);
 	}
-	
+
 	public static void main(String[] args) {
 		LocalDate d1 = LocalDate.of(2022, 1, 27);
 		LocalDate d2 = LocalDate.of(2022, 5, 18);
@@ -123,7 +124,7 @@ public abstract class Appointment implements Comparable<Appointment> {
 		Appointment a5 = new MonthlyAppointment("A meeting", d3, d2);
 
 		Appointment[] arr = { a1, a2, a3, a4, a5 };
-		Appointment[] expected = {a1, a4, a2, a3, a5};
+		Appointment[] expected = { a1, a4, a2, a3, a5 };
 
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length - 1; j++) {

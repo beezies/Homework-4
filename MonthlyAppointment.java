@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 /**
  * 
- * @author briannanicole
+ * Subclass of Appointment for appointments that occur on a monthly basis
+ * between two dates.
  * 
- *         Subclass of Appointment for appointments that occur on a monthly
- *         basis between two dates.
+ * @author briannanicole
  *
  */
 public class MonthlyAppointment extends Appointment {
